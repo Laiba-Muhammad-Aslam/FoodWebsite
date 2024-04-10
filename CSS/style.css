@@ -195,3 +195,14 @@ p{
     background-size: cover;
     padding: 16.875rem 0 9.375rem;
 }
+
+/* COUNTER SECTION  */
+
+.counter-section{
+    background-color: var(--primary-color);
+    padding: 2.5rem 0;
+}
+.counter-section p{
+    color: var(--white-color);
+    text-transform: uppercase;
+}
