@@ -183,7 +183,7 @@ p{
     left: 0;
     width: 100%;
     background: var(--white-color);
-    box-shadow: 0 0.125rem 1.75rem 0 rgb(0, 0, 0, 0.9);
+    box-shadow: 0 0.125rem 1.75rem 0 rgb(0, 0, 0, 0.09);
     transition: all .15s ease-in-out 0s;
 }
 
@@ -205,4 +205,47 @@ p{
 .counter-section p{
     color: var(--white-color);
     text-transform: uppercase;
+}
+
+@media screen and (max-width:991px){
+    /* custom classes */
+
+    .text-content{
+        width: 100%;
+    }
+
+    /* NAVBAR  */
+    .navigation-wrap .navbar-brand img{
+        height: 3.8125rem;
+    }
+    .navigation-wrap{
+        text-align: center;
+        background-color: var(--white-color);
+    }
+    .navigation-wrap .nav-link{
+        line-height: 1.875rem;
+    }
+    /* HOME SECTION  */
+    .top-banner{
+        padding: 9.375rem 0 9.375rem;
+    }
+}
+
+@media screen and (max-width:767px){
+    
+    /* CUSTOM CSS  */
+
+    h1{
+        font-size: 2.8rem;
+    }
+    h2{
+        font-size: 2rem;
+        line-height: 2.0625rem;
+    }
+    /* HOME SECTION  */
+
+    .top-banner{
+        padding: 10.875rem 0 9.375rem;
+    }
+
 }
