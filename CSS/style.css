@@ -294,4 +294,11 @@ p{
         padding: 10.875rem 0 9.375rem;
     }
 
+    /* STORY SECTION  */
+
+    .story-section{
+        height: auto;
+        padding: 3rem 0;
+    }
+
 }
