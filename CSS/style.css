@@ -285,7 +285,8 @@ p{
 }
 .testimonial-section .carousel-item{
     margin-top: 3rem;
-    padding: 10rem 3.125rem;
+    /* padding: 10rem 3.125rem; */
+    padding: 4rem 3.125rem;
     background-color: var(--white-color);
     border-radius: 0.9375rem;
     text-align: center;
@@ -326,6 +327,13 @@ p{
 .testimonial-section .carousel-indicators button.active{
     opacity: 1;
 }
+
+/* FAQ SECTION  */
+
+.faq h4 span{
+    color: var(--primary-color);
+    font-size: 1.875rem;
+}
 @media screen and (max-width:991px){
     /* custom classes */
 
@@ -348,6 +356,11 @@ p{
     .top-banner{
         padding: 9.375rem 0 9.375rem;
     }
+    /* CAROUSEL SECTION  */
+    .testimonial-section .carousel-item p{
+        padding: 0;
+    }
+
 }
 
 @media screen and (max-width:767px){
@@ -374,4 +387,17 @@ p{
         padding: 3rem 0;
     }
 
+     /* CAROUSEL SECTION  */
+     .testimonial-section .carousel-item{
+        padding: 11rem 3.125rem;
+    }
+
+}
+
+@media screen and (max-width:330px){
+    
+     /* CAROUSEL SECTION  */
+     .testimonial-section .carousel-item{
+        padding: 11rem 3.125rem;
+    }
 }
