@@ -333,7 +333,41 @@ p{
 .faq h4 span{
     color: var(--primary-color);
     font-size: 1.875rem;
-    margin-right: 0.3125rems;
+    margin-right: 0.3125rem;
+}
+
+/* BOOK FOOD  */
+.book-food{
+    width: 100%;
+    background: url("/images/bg/bg-3.jpg") no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 71.9125px;
+    padding: 4.375rem 0;
+}
+
+/*  NEWSLETTER SECTION  */
+.newsletter{
+    width: 55%;
+    margin: 0 auto;
+}
+.newsletter .form-control{
+    height: 3.225rem;
+    padding: 0 1.25rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    border: 0.1875rem solid var(--text-gray);
+    color: var(--black-color);
+}
+.newsletter .form-control:hover,
+.newsletter .form-control:focus{
+    outline: none;
+    box-shadow: none;
+    border-color: var(--primary-color);
 }
 @media screen and (max-width:991px){
     /* custom classes */
@@ -391,6 +425,15 @@ p{
      /* CAROUSEL SECTION  */
      .testimonial-section .carousel-item{
         padding: 11rem 3.125rem;
+    }
+
+    /*  NEWSLETTER SECTION  */
+    .newsletter{
+        width: 75%;
+    }
+    .newsletter .main-btn{
+        width: 100%;
+        margin-top: 1rem;
     }
 
 }
