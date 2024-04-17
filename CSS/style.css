@@ -369,6 +369,23 @@ p{
     box-shadow: none;
     border-color: var(--primary-color);
 }
+/* FOOTER SECTION  */
+.footer{
+    background: var(--primary-color);
+}
+.footer .footer-link{
+    font-size: 1rem;
+    color: var(--white-color);
+    padding: 0 1.875rem;
+}
+.footer .footer-link:hover{
+    color: var(--white-color) !important;
+}
+.footer a i{
+    font-size: 1.5rem;
+    color: var(--white-color);
+    padding: 0 1rem;
+}
 @media screen and (max-width:991px){
     /* custom classes */
 
@@ -436,6 +453,11 @@ p{
         margin-top: 1rem;
     }
 
+    /* FOOTER SECTION  */
+    .footer .footer-link, 
+    .footer a i{
+        padding: 0 0.7rem;
+    }
 }
 
 @media screen and (max-width:330px){
